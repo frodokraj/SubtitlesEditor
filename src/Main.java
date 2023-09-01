@@ -6,13 +6,16 @@ public class Main
 {
     public static void main(String[] args) throws IOException
     {
-        //Load file
-        String subtitlesPath = userInput();
+        //Import file
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("Enter the path to the subtitles:");
+        String subtitlesPath = userInput.nextLine();
         SubtitlesImporter subtitlesImporter = new SubtitlesImporter(subtitlesPath);
         ArrayList<Line> subtitles = subtitlesImporter.importSubtitles();
 
         //Change time
-        long change = Long.parseLong(userInput());
+        System.out.println("By how many milliseconds you want to move them?");
+        long change = Long.parseLong(userInput.nextLine());
         subtitles.forEach((n) -> n.startTime = n.startTime.plusNanos( change * 1000000L) );
         subtitles.forEach((n) -> n.stopTime = n.stopTime.plusNanos( change * 1000000L) );
 
@@ -26,11 +29,5 @@ public class Main
                 printWriter.println("");
         });
         printWriter.println("");
-    }
-
-    static String userInput()
-    {
-        Scanner userInput = new Scanner(System.in);
-        return userInput.nextLine();
     }
 }
