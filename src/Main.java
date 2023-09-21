@@ -8,7 +8,7 @@ public class Main
     {
         //Import file
         Scanner userInput = new Scanner(System.in);
-        System.out.println("Enter the path to the subtitles:");
+        System.out.println("Enter the path to the file with subtitles:");
         String subtitlesPath = userInput.nextLine();
         SubtitlesImporter subtitlesImporter = new SubtitlesImporter(subtitlesPath);
         ArrayList<Line> subtitles = subtitlesImporter.importSubtitles();
