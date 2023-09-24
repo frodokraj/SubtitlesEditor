@@ -1,12 +1,10 @@
 import org.jetbrains.annotations.NotNull;
-
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Objects;
 
 public class ConverterFactory
 {
-    public Converter createConverter(@NotNull File file) throws FileNotFoundException
+    public Converter createConverter(@NotNull File file)
     {
         String[] fileName = file.getName().split("\\.");
         String extension = fileName[fileName.length - 1];

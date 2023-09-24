@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f481515a-400d-4451-ba1b-340bc5cf492e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConverterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MicroDVDConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubRipperConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Subtitles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebVTTConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubtitlesEditor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SubtitlesEditor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConverterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConverterFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
       <updated>1689689117362</updated>
       <workItem from="1689689118786" duration="503000" />
       <workItem from="1692101732551" duration="14049000" />
-      <workItem from="1695298641456" duration="6119000" />
+      <workItem from="1695298641456" duration="6204000" />
     </task>
     <servers />
   </component>
