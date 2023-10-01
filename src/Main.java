@@ -16,7 +16,8 @@ public class Main
         Converter converter = CF.createConverter(new File(subtitlesPath));
         Subtitles subtitles = converter.createSubtitles();
 
-
+        //Shift subtitles
+        SubtitlesShifter SS = new SubtitlesShifter(subtitles);
 
     }
 }

@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f481515a-400d-4451-ba1b-340bc5cf492e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SubtitlesPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SubtitlesShifter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Verse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MicroDVDConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MicroDVDConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SubRipperConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubRipperConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Subtitles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Subtitles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SubtitlesImporter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebVTTConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebVTTConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +55,7 @@
       <updated>1689689117362</updated>
       <workItem from="1689689118786" duration="503000" />
       <workItem from="1692101732551" duration="14049000" />
-      <workItem from="1695298641456" duration="12559000" />
+      <workItem from="1695298641456" duration="14202000" />
     </task>
     <servers />
   </component>
