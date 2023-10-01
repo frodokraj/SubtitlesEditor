@@ -1,5 +1,5 @@
 import java.io.File;
-//TODO find out how to use with frames
+//TODO write MicroDVDConverter
 public class MicroDVDConverter implements Converter
 {
     public MicroDVDConverter(File file)

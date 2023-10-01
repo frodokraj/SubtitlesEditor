@@ -13,7 +13,7 @@ public class SubtitlesShifter
         subtitles.getVerses().forEach((n) -> n.startTime = n.startTime.plusNanos( howMany * 1000000L) );
         subtitles.getVerses().forEach((n) -> n.stopTime = n.stopTime.plusNanos( howMany * 1000000L) );
     }
-
+    //TODO add more shift options
     void shiftBySeconds(long howMany)
     {
         subtitles.getVerses().forEach((n) -> n.startTime = n.startTime.plusSeconds(howMany));

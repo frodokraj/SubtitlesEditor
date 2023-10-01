@@ -7,7 +7,7 @@ public class Subtitles
     String filePath;
     String fileName;
     String headline;
-    private ArrayList<Verse> verses = new ArrayList<Verse>();
+    private final ArrayList<Verse> verses = new ArrayList<>();
 
     void addVerse(int number, @NotNull String startTime, @NotNull String stopTime, @NotNull ArrayList<String> content)
     {
