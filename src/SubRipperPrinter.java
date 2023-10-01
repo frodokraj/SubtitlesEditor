@@ -2,7 +2,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Scanner;
 
 public class SubRipperPrinter
 {
@@ -15,7 +14,7 @@ public class SubRipperPrinter
     Subtitles subtitles;
     void printSubtitles() throws IOException
     {
-        PrintWriter printWriter = new PrintWriter(new FileWriter(subtitles.fileName));
+        PrintWriter printWriter = new PrintWriter(new FileWriter(new File(subtitles.filePath, subtitles.fileName)));
 
         subtitles.getVerses().forEach((n) ->
         {
@@ -23,6 +22,7 @@ public class SubRipperPrinter
             printWriter.println(n.startTime + " --> " + n.stopTime);
             n.content.forEach(printWriter::println);
             printWriter.println("");
+            printWriter.flush();
         });
 
         printWriter.println("");

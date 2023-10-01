@@ -21,7 +21,8 @@ public class SubRipperConverter implements Converter
         Subtitles subtitles = new Subtitles();
         Scanner lineScanner = new Scanner(file);
 
-        //Save file name
+        //Save file name and path
+        subtitles.filePath = file.getParent();
         subtitles.fileName = file.getName();
 
         //Create verses

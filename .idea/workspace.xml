@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f481515a-400d-4451-ba1b-340bc5cf492e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider man into thespider verse-English.srt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SubRipperConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubRipperConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubRipperPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubRipperPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Subtitles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Subtitles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SubtitlesPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubRipperPrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <updated>1689689117362</updated>
       <workItem from="1689689118786" duration="503000" />
       <workItem from="1692101732551" duration="14049000" />
-      <workItem from="1695298641456" duration="18090000" />
+      <workItem from="1695298641456" duration="19653000" />
     </task>
     <servers />
   </component>

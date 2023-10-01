@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class Subtitles
 {
     //Variables
+    String filePath;
     String fileName;
     String headline;
     private ArrayList<Verse> verses = new ArrayList<Verse>();
