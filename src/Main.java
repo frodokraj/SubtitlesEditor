@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main
 {
-    public static void main(String[] args) throws FileNotFoundException
+    public static void main(String[] args) throws IOException
     {
         //Get subtitles path
         Scanner userInput = new Scanner(System.in);
@@ -17,7 +17,12 @@ public class Main
         Subtitles subtitles = converter.createSubtitles();
 
         //Shift subtitles
-        SubtitlesShifter SS = new SubtitlesShifter(subtitles);
+        System.out.println("Enter the value in milliseconds by which you want to shift the subtitles");
+        long howMuchToShift = Long.parseLong(userInput.nextLine());
+        SubtitlesShifter subtitlesShifter = new SubtitlesShifter(subtitles);
+        subtitlesShifter.shiftByMilliseconds(howMuchToShift);
 
+        //Export subtitles
+        converter.extractSubtitles(subtitles);
     }
 }

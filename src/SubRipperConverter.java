@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
@@ -18,9 +19,12 @@ public class SubRipperConverter implements Converter
     public Subtitles createSubtitles() throws FileNotFoundException
     {
         Subtitles subtitles = new Subtitles();
-
         Scanner lineScanner = new Scanner(file);
 
+        //Save file name
+        subtitles.fileName = file.getName();
+
+        //Create verses
         while (lineScanner.hasNextLine())
         {
             String section = lineScanner.nextLine();
@@ -56,8 +60,9 @@ public class SubRipperConverter implements Converter
     }
 
     @Override
-    public void extractSubtitles(Subtitles subtitles)
+    public void extractSubtitles(Subtitles subtitles) throws IOException
     {
-
+        SubRipperPrinter subRipperPrinter = new SubRipperPrinter(subtitles);
+        subRipperPrinter.printSubtitles();
     }
 }
