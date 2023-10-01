@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
 
+//TODO finish WebVTTConverter
 public class WebVTTConverter implements Converter
 {
     public WebVTTConverter(File file)
